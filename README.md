@@ -8,7 +8,7 @@ So, I've had occasion to use sequencing on the output of experiments like SELEX 
 
 Now, there are really strong workflows already built for the data analysis of these types of experiments. Sometimes though, I have a ton of different conditions and a huge pile of fastq files, and I know only a small proportion of them will have actually worked, the rest being failures for whatever reason (in a big screening experiment, they can't all be winners, right?)
 
-So, this script was written to blitz through fastQ files, find the degenerate sites, and do quick-and-dirty PWMs for enrichment/depletion that can be easily viewed as Sequence Logos, and I can concentrate on the experiments that seem like they've produced a non-negative outcome. Are sequence logos perfect for this? Certainly not, but that's why it's called quick and dirty, and not slow and perfect.
+This script was written to blitz through fastQ files, find the degenerate sites, and do quick-and-dirty PWMs for enrichment/depletion that can be easily viewed as Sequence Logos, which lets me concentrate on the experiments that seem like they've produced a non-negative outcome. Are sequence logos perfect for this? Certainly not, but that's why it's called quick and dirty, and not slow and perfect.
 
 # Usage
 
